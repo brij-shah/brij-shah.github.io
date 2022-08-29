@@ -516,6 +516,12 @@ ul {
   opacity: 50%;
 
 }
+
+@media screen and (max-width: 600px) {
+  .mobile-hide {
+    display: none !important;
+  }
+}
   
 .highlight-link {
 
@@ -563,6 +569,7 @@ ul {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: steelblue }
+}
 /*
 .mb-3.name{
   text-transform: none;
