@@ -569,7 +569,7 @@ ul {
 @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: steelblue }
-}
+
 /*
 .mb-3.name{
   text-transform: none;
@@ -585,7 +585,6 @@ ul {
 
     typing 3.5s steps(30, end),
     blink-caret .5s step-end infinite;
-}
 
 @keyframes typing {
 
