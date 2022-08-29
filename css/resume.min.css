@@ -517,11 +517,6 @@ ul {
 
 }
 
-@media screen and (max-width: 600px) {
-  .mobile-hide {
-    display: none !important;
-  }
-}
   
 .highlight-link {
 
